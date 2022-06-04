@@ -1,0 +1,17 @@
+{
+    "pluginName": "深色模式",
+    "description": "MacOS 深色模式/浅色模式切换",
+    "version": "0.0.1",
+    "author": "Yunser",
+    "homepage": "https://github.com/yunser/utools-plugins",
+    "preload": "preload.js",
+    "logo": "dark-logo.png",
+    "features": [
+        {
+            "platform": ["darwin"],
+            "code": "darkMode",
+            "explain": "macOS 深色模式与浅色模式切换",
+            "cmds": ["darkMode", "dark", "light", "深色", "浅色"]
+        }
+    ]
+}
